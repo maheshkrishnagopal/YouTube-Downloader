@@ -1,4 +1,7 @@
 '''
+YouTube Downloader v.0.0.1
+--------------------------
+
 Name of the Program: YouTube Downloader
 Scope: This program has been created with best module available in Python. But, this can also be optimized and can get better structure.
 Author: Maheshkrishna A G
@@ -7,7 +10,6 @@ Version: 0.1
 Description: This Python program downloads Youtube videos in mp4 format, by default, (in best available resolution), to your local directory, when the URL is given.
 Input: Youtube video URL.
 Date: 26-04-2017
-
 '''
 from pafy import *;
 
