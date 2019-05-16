@@ -25,8 +25,8 @@ if (action=='y'):
     try:
         print ("Downloading !!! " + video.title);
         best=video.getbest(preftype="mp4");
-        filename=best.download(quiet=True, callback=status, filepath="C:\\Users\\VAIO\\Desktop");
-        print("Download Completed!!! Please check in this path - C:\\Users\\VAIO\\Desktop");
+        filename=best.download(quiet=True, callback=status, filepath="LOCAL_SYSTEM FILE_PATH");
+        print("Download Completed!!! Please check in this path - LOCAL_SYSTEM FILE_PATH");
         exit=input("Press any key to Exit!");
     except:
         print ("Unexpected Error Occured, hence download failed!");
